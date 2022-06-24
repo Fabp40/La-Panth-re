@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 body {
     margin: 0;
     padding: 0;
@@ -665,7 +672,7 @@ p,
 label,
 .btn,
 a {
-    font-family: "helvetica";
+    font-family: "roboto";
     font-weight: 400;
     color: #212121!important;
 }
@@ -845,7 +852,7 @@ justify-content: center;
     background-image: url("img/agence-la-panthere.webp");
 }
 .bg-banniere-contact {
-    background-image: url("img/Contact.jpg");
+    background-image: url("img/Contact.webp");
 }
 
 .bg-presentation {
