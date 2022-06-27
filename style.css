@@ -855,7 +855,7 @@ justify-content: center;
 }
 
 .bg-lines-h2-bg {
-    background-image: white;/* url("img/lines-h2-bg.png")*/
+    background-color: white;/* url("img/lines-h2-bg.png")*/
 }
 
 .bg-banniere {
@@ -896,13 +896,13 @@ justify-content: center;
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -920,10 +920,7 @@ justify-content: center;
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+    
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -932,8 +929,7 @@ justify-content: center;
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        
     }
 }
 
@@ -989,7 +985,7 @@ justify-content: center;
         float: none;
         margin: 5px 0 0 10px!important;
         border: 4px solid black;
-        border-bottom--or: transparent;
+        border-bottom-color: transparent;
         border-right-color: transparent;
         border-left-color: transparent;
     }
