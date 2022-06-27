@@ -1,6 +1,6 @@
+/*xxxxxxxxxxxx Police similaire à helvetica google font + Font Awesome 4.7.0  xxxxxxxxxxxxxx*/
 
-
-
+@import url('https://fonts.googleapis.com/css2? family= Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700; 1900 & display=swap');
 
 
 
@@ -97,8 +97,13 @@ font-weight: 600;/*mise en avant des titres de colonnes de liens du footer*/
 
 }
 
+ul
+{list-style-type: none; padding-left: 5px;}
 
-li {list-style: none;}/*supression des pouces de listes*/
+
+li {list-style: none;/*supression des pouces de listes*/
+
+}
  
 .bloc-bg-texture::before {
     content: "";
@@ -271,6 +276,7 @@ li {list-style: none;}/*supression des pouces de listes*/
 .l-bloc p a:hover {
     color: rgba(0, 0, 0, 1);
 }
+i {padding-left:5px}
 
 .l-bloc .navbar-toggle .icon-bar {
     color: rgba(0, 0, 0, .6);
@@ -283,6 +289,7 @@ li {list-style: none;}/*supression des pouces de listes*/
     color: rgba(0, 0, 0, .7);
     border-color: rgba(0, 0, 0, .3);
 }
+.btn-form{width: 200px;}
 
 .voffset {
     margin-top: 30px;
@@ -458,6 +465,8 @@ nav .caret {
     float: right;
 }
 
+.block-button-form {display:flex; justify-content: center;}
+
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
@@ -561,7 +570,7 @@ a[data-lightbox] {
 
 a[data-lightbox]:hover::before {
     content: "+";
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+    font-family: "Roboto";
     font-size: 32px;
     width: 50px;
     height: 50px;
@@ -717,6 +726,7 @@ p {
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
+
 }
 .temoignage { font-weight: 600;}
 .bloc2_citation { color: #000000!important;}
@@ -857,7 +867,11 @@ justify-content: center;
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
+
+
 }
+/*-------------------------------------- règles de breakpoints ------------------------------------*/
+
 
 @media (max-width: 1024px) {
     .bloc {
