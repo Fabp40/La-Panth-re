@@ -96,7 +96,10 @@ ul {
 
 li {
   list-style: none; /*supression des pouces de listes*/
-  line-height: 30px; /*espacement pour le tactile*/
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: bolder;
+  color: #000000; /*espacement pour le tactile*/
 }
 
 .bloc-bg-texture::before {
